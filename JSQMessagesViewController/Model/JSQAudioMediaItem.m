@@ -28,8 +28,6 @@
 
 @property (strong, nonatomic) UIView *cachedMediaView;
 
-@property (strong, nonatomic) UIButton *playButton;
-
 @property (strong, nonatomic) UIProgressView *progressView;
 @property (strong, nonatomic) UILabel *progressLabel;
 @property (strong, nonatomic) NSTimer *progressTimer;

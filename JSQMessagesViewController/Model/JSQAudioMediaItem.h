@@ -41,6 +41,11 @@
 @interface JSQAudioMediaItem : JSQMediaItem <JSQMessageMediaData, AVAudioPlayerDelegate, NSCoding, NSCopying>
 
 /**
+ *  The play button.
+ */
+@property (nonatomic, strong) UIButton *playButton;
+
+/**
  *  The delegate object for audio event notifications
  */
 @property (nonatomic, weak, nullable) id<JSQAudioMediaItemDelegate> delegate;
